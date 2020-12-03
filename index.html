@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MY FAVORITE THINGS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Rye&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section id="s1" style="display:block">
+        <p id="oxford">OXFORD UNIVERSITY PRESS</p>
+        <p id="present">Presents...</p>
+        <p id="favorite">my.favorite.com</p>
+        <button id="go" onclick="welcomefav()">Go to my.favorite.com</button>
+    </section>
+    <ul class="menu">
+        <li class="items" onclick="welcomefav()">ABOUT</li>
+        <li class="items" onclick="favorite()">MY FAVORITE HOBBY</li>
+        <li class="items" onclick="hawaii()">MY FAVORITE PLACE</li>
+        <li class="items" onclick="next2author()">MY FAVORITE AUTHOR</li>
+        <li class="items" onclick="go2ins()">MY INSPIRATION</li>
+        <li class="items" onclick="next2con()">CONTACT</li>
+    </ul>
+    <section id="s2" style="display:none">
+
+        <div class="container">
+            <img id="search" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTd9QOlIPIoAE8JwzuC-MXFvRAuRIhR2q1o2g&usqp=CAU">
+            <div id="searcht" class="text">my.favorite.com</div>
+        </div>
+        <p id="welcome">Welcome to my.favorite.com!</p>
+        <p id="explore">Where you can explore...</p>
+        <img id="fi" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQbnFdm6dbmeEpVCcPdkcYAFAYbJILXUHlGiA&usqp=CAU">
+        <div>
+            <button id="check" onclick="favorite()">Check it Out!</button>
+        </div>
+    </section>
+    <section id="s3" style="display:none">
+        <img id="books" src="https://i.pinimg.com/originals/2e/08/19/2e081964edee58c285f1eccd68c8674c.jpg">
+        <p id="hobby">MY FAVORITE HOBBY</p>
+        <p id="hobbyname">Reading Books</p>
+    </section>
+    <section id="s4" style="display:none">
+        <div class="container">
+            <img id="books2" src="https://now.tufts.edu/sites/default/files/180625_summer_books_lg.jpg">
+            <div id="bookt" class="text2">Imagine you are in a magical place, it can be anywhere you want. A place where you meet new people, travel, visit many places, go on long journeys, learn about the people, and solve mysteries. Wouldn't that be nice?
+                <br>
+                At that time, an unknown happiness rises in you. Something so powerful, that it leaves a mark in your memory. Where would you get such happiness (or other feelings-anger, sadness, etc.) Well there are two places- real life and books. You know about real life, so, let's talk books. Although books can tell you about people's lives (biographies, autobiographies), or give you facts about animals, plants, human body, natural phenomenas, natural disasters, places, etc.(they all fall under the nonfiction category), there are also books that are funny and bring joy and happiness/laughter, books that can help you stay calm/calm down.
+                <br>
+                Some can help you learn things which in turn help your brain "grow" and develop. Books can also improve your language and vocabulary. By reading, your words and sentences become more fluent and not sound like forks and knives clanging in a drawer.
+                <br>
+                When I read, I like to imagine what just happened and immerse in the story. The story plays like a movie in my head. My brain automatically imagines and pictures what the story might look like. It makes your imagination grow. Books can give you ideas and make YOU a creative person.
+                <br>
+                Because of these reasons, I would like conclude that reading books is really fun and my absolute FAVORITE hobby. I hope that sometime you may find a love of books. Keep reading!
+            </div>
+
+        </div>
+        <button id="nexth" onclick="hawaii()">NEXT</button>
+    </section>
+    
+    <section id="s5" style="display:none">
+        <div class="container">
+       <p id="hawaiip">My Favorite Place is...</p>
+            <img id="hawaiih" src="Screen%20Shot%202020-12-03%20at%204.41.31%20PM.png">
+        </div>
+        <br>
+        <br>
+        <br>
+        <img src="https://p.kindpng.com/picc/s/367-3678245_travel-bag-flat-icon-vector-luggage-png-gif.png" id="suitcase">
+        <div id="move">
+            <img src="https://cdn.travelpulse.com/images/54aaedf4-a957-df11-b491-006073e71405/ee952e9e-f09c-49c2-bc5d-4303c880173a/630x355.jpg" id="hawaiibeach">
+            <img id="stamp" src="https://previews.123rf.com/images/tonybaggett/tonybaggett1202/tonybaggett120200020/12361341-usa-postage-stamp-greetings-from-hawaii.jpg">
+            <img id="dance" src="https://thumbs.dreamstime.com/t/cute-cartoon-girls-traditional-hawaiian-dancer-costume-vector-illustration-background-72366712.jpg">
+            <img id="flowers" src="https://i.pinimg.com/originals/e9/ba/53/e9ba53001e4a7f5965aa08b28f0bc302.jpg">
+            <img id="food" src="https://image.freepik.com/free-photo/exotic-tropical-blue-curacao-cocktail-drink-glass-with-plumeria-frangipani-flower-palm-leaf-fresh-coconut-pineapple-background_79919-1824.jpg">
+            <img id="resort" src="https://imagesvc.meredithcorp.io/v3/jumpstartpure/image?url=https://cf-images.us-east-1.prod.boltdns.net/v1/static/3281700261001/213fc94e-c187-440d-96bc-a9340c70cdf7/d26484f6-79b1-4062-80ca-78b4a82d3d83/1280x720/match/image.jpg&w=1280&h=720&q=90&c=cc">
+            <img id="volcano" src="https://inhabitat.com/wp-content/blogs.dir/1/files/2015/01/NASA-volcano-robota.jpg">
+            <img id="flag" src="https://i.pinimg.com/originals/71/40/9b/71409b576b970301299ea21b2e5c90fc.png">
+        </div>
+        <p id="pack">Let's pack up and go...!</p>
+        <div>
+            <button id="backh" onclick="back2b()"><span>BACK </span></button>
+            <button id="next2author" onclick="next2author()"><span>NEXT </span></button>
+        </div>
+    </section>
+    <section id="s6" style="display:none">
+        <p id="myins">MY INSPIRATION</p>
+        <div class="line"></div>
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/bWWTk-pZX5g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <br>
+        <div>
+            <a id="rb" href="https://www.abebooks.com/books/7-reasons-to-love-reading/index.shtml" target="_blank">7 Benefits of Reading: Why we should read.</a>
+        </div>
+        <p id="description">Only after reading great books like the "Space Case", "The Harlem Charade", "The First Rule of Punk, the Harry Potter series, etc. did I develop an interest of reading. Just keep in mind that some of these may not sound interesting or look interesting, but you can't judge a book by its cover...maybe even title. Now, I enjoy reading a lot! If you don't like reading, you probably haven't found the right book yet.</p>
+        <button id="backins" onclick="back2author()">BACK</button>
+        <button id="next2con" onclick="next2con()">NEXT</button>
+    </section>
+
+    <section id="s7" style="display:none">
+
+        <div class="container">
+            <img id="hcrest" src="33b6958dba518f0bf6edf8740f8565a8.jpg">
+            <div id="jkrowling" class="info">
+                <p id="jk">J. K. ROWLING</p>
+                <img id="jkr" src="jk-rowling-hh.jpg">
+                <p id="author">Author of...</p>
+                <img id="hp" src="harry-potter-logo-tutorial-final.jpg">
+
+            </div>
+        </div>
+        <p id="Aboutjk">About J. K. Rowling</p>
+        <a href="https://www.jkrowling.com/about/#:~:text=Joanne%20Rowling%20was%20born%20on,%2C%20in%20south%2Deast%20Wales.&text=Anne%20was%20diagnosed%20with%20multiple,Harry%20Potter%20books%20were%20published." target="_blank">J.K. Rowling Biography</a>
+        <br>
+        <br>
+        <div>
+            <a href="https://harrypotter.bloomsbury.com/uk/jk-rowling-biography/" target="_blank">Harry Potter | J.K. Rowling</a>
+            <p id="booksjk">BOOKS</p>
+        </div>
+        <div>
+            <span>
+                <a href="https://www.amazon.in/Harry-Potter-Philosophers-Stone-Rowling-ebook/dp/B019PIOJYU/ref=sr_1_4?dchild=1&keywords=harry+potter+and+the+sorcerer%27s+stone+by+J.K.Rowling&qid=1606570048&sr=8-4" target="_blank"><img id="n1" src="https://images-na.ssl-images-amazon.com/images/I/51DF6ZR8G7L._SX329_BO1,204,203,200_.jpg"></a>
+                <a href="https://www.amazon.in/Harry-Potter-Chamber-Secrets-Rowling-ebook/dp/B019PIOJY0/ref=pd_sim_351_7?_encoding=UTF8&pd_rd_i=B019PIOJY0&pd_rd_r=e11d762b-8e10-46a9-ba76-e253f6ab05f1&pd_rd_w=OVbNO&pd_rd_wg=cxizi&pf_rd_p=d1b10ad8-3d1b-4a62-86b5-cf8b9e87a254&pf_rd_r=ZWG1KRKBTE41VBJGQ0B3&psc=1&refRID=ZWG1KRKBTE41VBJGQ0B3" target="_blank"><img id="n2" src="https://images-na.ssl-images-amazon.com/images/I/51jNORv6nQL._SX340_BO1,204,203,200_.jpg"></a>
+                <a href="https://www.amazon.in/Harry-Potter-Prisoner-Azkaban-Rowling-ebook/dp/B019PIOJZ4/ref=pd_sim_351_2/261-3667547-7155965?_encoding=UTF8&pd_rd_i=B019PIOJZ4&pd_rd_r=46e484e4-0c3c-4efd-95c7-b39d93674528&pd_rd_w=3or4f&pd_rd_wg=6Q5Qq&pf_rd_p=d1b10ad8-3d1b-4a62-86b5-cf8b9e87a254&pf_rd_r=T5N3EZXB35THE7ERN7N8&psc=1&refRID=T5N3EZXB35THE7ERN7N8" target="_blank"><img id="n3" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1499277281l/5.jpg"></a>
+            </span>
+        </div>
+        <div>
+            <span>
+                <a href="https://www.amazon.in/Harry-Potter-Goblet-Fire-Rowling-ebook/dp/B019PIOJWW/ref=pd_sim_351_1/261-3667547-7155965?_encoding=UTF8&pd_rd_i=B019PIOJWW&pd_rd_r=a701a64b-43db-4891-af70-366c0440db60&pd_rd_w=SAtH2&pd_rd_wg=5eVBd&pf_rd_p=d1b10ad8-3d1b-4a62-86b5-cf8b9e87a254&pf_rd_r=ZNQR02QGZVHGPBQZEWKZ&psc=1&refRID=ZNQR02QGZVHGPBQZEWKZ" target="_blank"><img id="n4" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554006152l/6.jpg"></a>
+                <a href="https://www.amazon.in/Harry-Potter-Order-Phoenix-Rowling-ebook/dp/B019PIOJV8/ref=pd_sim_351_1/261-3667547-7155965?_encoding=UTF8&pd_rd_i=B019PIOJV8&pd_rd_r=7bb29097-bb60-46a2-a9aa-e6e598351fae&pd_rd_w=czsku&pd_rd_wg=E3Dlf&pf_rd_p=d1b10ad8-3d1b-4a62-86b5-cf8b9e87a254&pf_rd_r=W7XRE2SWNKEC7RGMFGXT&psc=1&refRID=W7XRE2SWNKEC7RGMFGXT" target="_blank"><img id="n5" src="https://covers.openlibrary.org/b/id/9326212-L.jpg"></a>
+                <a href="https://www.amazon.in/Harry-Potter-Half-Blood-Prince-Rowling-ebook/dp/B019PIOJZE/ref=sr_1_13?dchild=1&keywords=Harry+Potter+and+the+Chamber+of+Secrets+by+J.K.Rowling&qid=1606570216&sr=8-13" target="_blank"><img id="n6" src="https://images-na.ssl-images-amazon.com/images/I/51uO1pQc5oL._SX329_BO1,204,203,200_.jpg"></a>
+            </span>
+        </div>
+        <div>
+            <span>
+                <a href="https://www.amazon.in/Harry-Potter-Deathly-Hallows-Rowling-ebook/dp/B019PIOJVI/ref=pd_sim_351_1/261-3667547-7155965?_encoding=UTF8&pd_rd_i=B019PIOJVI&pd_rd_r=3f8484c3-e99f-418e-89ac-01d6ef7e11be&pd_rd_w=4AdUL&pd_rd_wg=2tFc1&pf_rd_p=d1b10ad8-3d1b-4a62-86b5-cf8b9e87a254&pf_rd_r=MR322GMA8GD5QK6GYP1X&psc=1&refRID=MR322GMA8GD5QK6GYP1X" target="_blank"><img id="n7" src="Screen%20Shot%202020-11-26%20at%208.19.32%20PM.png"></a>
+                <a href="https://www.amazon.in/Harry-Potter-Cursed-Child-Playscript-ebook/dp/B073P9348D/ref=pd_sim_351_5/261-3667547-7155965?_encoding=UTF8&pd_rd_i=B073P9348D&pd_rd_r=6063af1b-9af7-4d51-99f6-bb9065021ffd&pd_rd_w=yjVzT&pd_rd_wg=qTJ2f&pf_rd_p=d1b10ad8-3d1b-4a62-86b5-cf8b9e87a254&pf_rd_r=7SAN1R7TGBY984X1NKA9&psc=1&refRID=7SAN1R7TGBY984X1NKA9" target="_blank"><img id="Curse" src="https://kbimages1-a.akamaihd.net/5dbd017a-9894-4457-99ef-86ed0c3a5bc2/1200/1200/False/harry-potter-and-the-cursed-child-parts-one-and-two-the-official-playscript-of-the-original-west-end-production.jpg"></a>
+                <a href="https://www.amazon.in/Fantastic-Beasts-Where-Find-Them-ebook/dp/B01ETJABRE/ref=pd_sim_351_4/261-3667547-7155965?_encoding=UTF8&pd_rd_i=B01ETJABRE&pd_rd_r=4d6f17da-192b-4d09-b832-868bd609aa53&pd_rd_w=YuWwb&pd_rd_wg=gI9DF&pf_rd_p=d1b10ad8-3d1b-4a62-86b5-cf8b9e87a254&pf_rd_r=M742R7RBTJ4GDW70Z504&psc=1&refRID=M742R7RBTJ4GDW70Z504" target="_blank"><img id="Beasts" src="https://prodimage.images-bn.com/pimages/9781338109061_p0_v5_s1200x630.jpg"></a>
+            </span>
+        </div>
+        <div>
+            <span>
+                <a href="https://www.amazon.in/Fantastic-Beasts-Grindelwald-Original-Screenplay-ebook/dp/B07BL2VNNV/ref=pd_sim_351_1/261-3667547-7155965?_encoding=UTF8&pd_rd_i=B07BL2VNNV&pd_rd_r=3df8ef46-2436-44ab-8826-e7e285b3324e&pd_rd_w=bnkQP&pd_rd_wg=hzFAN&pf_rd_p=d1b10ad8-3d1b-4a62-86b5-cf8b9e87a254&pf_rd_r=HJD123BPDEW7YJRZG16Y&psc=1&refRID=HJD123BPDEW7YJRZG16Y" target="_blank"><img id="Grindelwald" src="https://images-na.ssl-images-amazon.com/images/I/71ORQmwTDUL.jpg"></a>
+                <a href="https://www.amazon.in/Tales-Beedle-Bard-Hogwarts-Library-ebook/dp/B01F3ET2RE/ref=pd_sim_351_4/261-3667547-7155965?_encoding=UTF8&pd_rd_i=B01F3ET2RE&pd_rd_r=cda0e19e-e504-4088-93d9-952fd7fdc5b4&pd_rd_w=iw3hP&pd_rd_wg=b5YNf&pf_rd_p=d1b10ad8-3d1b-4a62-86b5-cf8b9e87a254&pf_rd_r=WR348THR1E62RBJZGCZY&psc=1&refRID=WR348THR1E62RBJZGCZY" target="_blank"><img id="Beedle" src="https://media.bloomsbury.com/rep/bj/9781408894613.jpg"></a>
+                <a href="https://www.amazon.in/Casual-Vacancy-J-K-Rowling-ebook/dp/B007TK77QE/ref=sr_1_2?crid=2G7AMBKEH7TQE&dchild=1&keywords=the+casual+vacancy+j.k.+rowling&qid=1606571308&s=digital-text&sprefix=the+casual+%2Cdigital-text%2C322&sr=1-2" target="_blank"><img id="Vacany" src="https://upload.wikimedia.org/wikipedia/en/thumb/9/91/The_Casual_Vacancy.jpg/220px-The_Casual_Vacancy.jpg"></a>
+            </span>
+        </div>
+        <div>
+            <span>
+                <a href="https://www.amazon.in/Ickabog-J-K-Rowling-ebook/dp/B08DD99GRQ/ref=sr_1_2?crid=3N86BZEY1DZ2H&dchild=1&keywords=ickabog&qid=1606571673&s=digital-text&sprefix=ic%2Cdigital-text%2C361&sr=1-2" target="_blank"><img id="Ickabog" src="https://images-na.ssl-images-amazon.com/images/I/51KX1AZ3PLL._SX258_BO1,204,203,200_.jpg"></a>
+                <a href="https://www.goodreads.com/book/show/31223522-ilvermorny-school-of-witchcraft-and-wizardry" target="_blank"><img id="Ilvermorny" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474996746l/31223522.jpg"></a>
+                <a href="https://www.amazon.in/Quidditch-Through-Ages-J-K-Rowling/dp/1408883082/ref=sr_1_3?crid=H8NA2F7PSRQT&dchild=1&keywords=quidditch+through+the+ages&qid=1606815841&sprefix=Quidditch+%2Caps%2C281&sr=8-3" target="_blank"><img id="Quidditch" src="https://images-na.ssl-images-amazon.com/images/I/91GqMnPc1EL.jpg"></a>
+            </span>
+        </div>
+        <div>
+            <span>
+                <a href="https://www.amazon.in/Hogwarts-Hardship-Dangerous-Pottermore-Presents-ebook/dp/B01JLXETNK/ref=sr_1_1?dchild=1&keywords=jk+rowling+heroism%2C+hardship+and+dangerous+hobbies&qid=1606816041&sr=8-1" target="_blank"><img id="Hog1" src="https://m.media-amazon.com/images/I/516ZAsq057L.jpg"></a>
+                <a href="https://www.amazon.in/Hogwarts-Politics-Poltergeists-Pottermore-Presents-ebook/dp/B01JLXET6C/ref=sr_1_1?dchild=1&keywords=jk+rowling+power%2C+politics+and+pesky+poltergeists&qid=1606816091&sr=8-1" target="_blank"><img id="Hog2" src="https://m.media-amazon.com/images/I/519YfCkwc8L.jpg"></a>
+                <a href="https://www.amazon.in/Hogwarts-Incomplete-Unreliable-Pottermore-Presents-ebook/dp/B01JLXET7G/ref=sr_1_1?dchild=1&keywords=jk+rowling+hogwarts+an+unreliable&qid=1606816134&sr=8-1" target="_blank"><img id="Hog3" src="https://assets.mugglenet.com/wp-content/uploads/2016/08/Hogwarts-An-Incomplete-and-Unreliable-Guide-Cover.jpg"></a>
+            </span>
+        </div>
+        <div>
+            <span>
+                <a href="https://www.amazon.in/Very-Good-Lives-Importance-Imagination-ebook/dp/B00QH2I5DE/ref=pd_sim_351_4/261-3667547-7155965?_encoding=UTF8&pd_rd_i=B00QH2I5DE&pd_rd_r=37132580-ce42-4735-a034-925d553c5fd1&pd_rd_w=SnDPp&pd_rd_wg=DtTjp&pf_rd_p=d1b10ad8-3d1b-4a62-86b5-cf8b9e87a254&pf_rd_r=NP4BVJPW7FP48JBQZ35E&psc=1&refRID=NP4BVJPW7FP48JBQZ35E" target="_blank"><img id="Lives" src="https://covers.alibrate.com/b/59872ebbcba2bce50c20bddd/45f82511-f809-412c-bbaa-8b6850e29986/medium"></a>
+                <a href="https://www.goodreads.com/book/show/8933944-harry-potter" target="_blank"><img id="prequel" src="https://i.pinimg.com/originals/89/a9/b3/89a9b3e91f1df9f764cf51f97231bdf7.jpg"></a>
+                <a href="https://www.goodreads.com/book/show/34656023-the-magical-congress-of-the-united-states-of-america" target="_blank"><img id="America" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1503044458l/34656023.jpg"></a>
+            </span>
+        </div>
+        <div>
+            <button id="b26" onclick="back2place()"><span>BACK </span></button>
+            <button id="f726" onclick="go2ins()"><span>NEXT </span</button>
+        </div>
+    </section>
+    <section id="contactme" style="display:none">
+        <p id="contact">Contact Oxford University Press:</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.8723413758084!2d78.44478561487676!3d17.41791298806028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb973183490065%3A0xf75e0a55b39f31ed!2sOxford%20University%20Press!5e0!3m2!1sen!2sin!4v1606568886091!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <br>
+        <br>
+        <div>
+            <span>
+                <img id="smiley" src="https://images-na.ssl-images-amazon.com/images/I/51zLZbEVSTL._AC_SX466_.jpg">
+                <p id="info2contact">If you have any queries or feedback, you can contact this website creater Sahasra Regoti using the following e-mail:</p>
+            </span>
+        </div>
+        <div class="contact">
+            <a href="mailto:sregoti11@gmail.com?Subject=Query/Feedback"><i class="fa fa-envelope"></i>&nbsp;&nbsp;<p id="g-mail">sregoti11@gmail.com</p></a>
+        </div>
+        <div>
+            <button id="backfromcon" onclick="backfromcon()">BACK</button>
+        </div>
+    </section>
+</body>
+
+</html>
